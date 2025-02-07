@@ -55,7 +55,7 @@ export const onUserLogin = async (userID, userName, props) => {
         },
         onIncomingCallReceived: (callID, inviter, type, invitees, customData) => {
           console.log('[Incoming call]+++', callID, inviter, type, invitees, customData)
-          RNCallKeep.displayIncomingCall(callID, inviter, type, 'number', false);
+          //RNCallKeep.displayIncomingCall(callID, inviter, type, 'number', false);
         },
         onIncomingCallCanceled: (callID, inviter) => {
          // console.log('[onIncomingCallCanceled]+++', callID, inviter);
